@@ -1,13 +1,82 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Luz Verde | Pergamino</title>
+    <!-- SEO Meta Tags -->
+    <title>Escuela de Conducir Luz Verde | Autoescuela en Pergamino</title>
+    <meta name="description"
+        content="Escuela de conductores líder en Pergamino. Aprendé a manejar con autos doble comando y obtené tu licencia de conducir. Cursos prácticos y teóricos.">
+    <meta name="keywords"
+        content="escuela de conducir pergamino, autoescuela pergamino, aprender a manejar, clases de manejo, licencia de conducir pergamino">
+
+    <!-- Geo Tags -->
+    <meta name="geo.region" content="AR-B">
+    <meta name="geo.placename" content="Pergamino">
+    <meta name="geo.position" content="-33.89;-60.57">
+    <meta name="ICBM" content="-33.89, -60.57">
+
+    <!-- Open Graph / Social -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.luzverdepergamino.com.ar/">
+    <meta property="og:title" content="Escuela de Conducir Luz Verde | Pergamino">
+    <meta property="og:description"
+        content="Aprendé a manejar seguro en Pergamino. Autos doble comando y profesionales capacitados.">
+    <meta property="og:image"
+        content="https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Escuela de Conductores Luz Verde",
+      "image": "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d",
+      "url": "https://www.luzverdepergamino.com.ar/",
+      "telephone": "0247715668394",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Pergamino",
+        "addressRegion": "Buenos Aires",
+        "postalCode": "2700",
+        "addressCountry": "AR"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": -33.89,
+        "longitude": -60.57
+      },
+      "priceRange": "$$",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday"
+        ],
+        "opens": "08:00",
+        "closes": "20:00"
+      }
+    }
+    </script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Poppins:wght@500;700&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-     
+
 
     <header>
         <div class="container navbar">
@@ -21,41 +90,81 @@
     </header>
 
     <section id="inicio" class="hero">
-        <div class="container">
-            <h1>Aprendé a manejar seguro</h1>
-            <p>La escuela de conductores líder en Pergamino. Autos doble comando y seguros especiales.</p>
-            <a href="https://wa.me/5492477668394" class="btn">Consultar por WhatsApp</a>
+        <div class="container content-animate">
+            <h1 class="fade-in">Escuela de Conductores Luz Verde</h1>
+            <p class="fade-in delay-200">La escuela líder en Pergamino. Autos doble comando y seguros especiales.</p>
+            <a href="https://wa.me/5492477668394" class="btn fade-in delay-400"><i class="fab fa-whatsapp"></i>
+                Consultar por WhatsApp</a>
         </div>
     </section>
 
-    <section id="cursos" class="features">
+    <section id="cursos" class="features section-animate">
         <div class="container">
+            <h2 style="text-align: center; margin-bottom: 2rem;" class="fade-in">Nuestros Cursos</h2>
             <div class="features-grid">
-                <div class="feature-card">
-                    <h3>Vehículos Doble Comando</h3>
-                    <p>Aprendé con total seguridad en nuestra flota de autos modernos equipados con sistema de doble pedalera para tu tranquilidad.</p>
+                <div class="feature-card slide-up delay-200">
+                    <div class="icon-container"><i class="fas fa-car-side"></i></div>
+                    <h3>Curso A</h3>
+                    <p>5 Prácticas + 5 clases teóricas.</p>
                 </div>
-                <div class="feature-card">
-                    <h3>Instructores Capacitados</h3>
-                    <p>Profesionales con paciencia y experiencia que se adaptan a tus tiempos de aprendizaje, desde nivel cero hasta perfeccionamiento.</p>
+                <div class="feature-card slide-up delay-400">
+                    <div class="icon-container"><i class="fas fa-car"></i></div>
+                    <h3>Curso B</h3>
+                    <p>8 Clases prácticas + 5 clases teóricas.</p>
                 </div>
-                <div class="feature-card">
-                    <h3>Trámite de Licencia</h3>
-                    <p>Te asesoramos y acompañamos en el proceso para obtener tu licencia de conducir en el municipio de Pergamino.</p>
+                <div class="feature-card slide-up delay-600">
+                    <div class="icon-container"><i class="fas fa-route"></i></div>
+                    <h3>Curso C</h3>
+                    <p>10 clases prácticas + 5 clases teóricas. </p>
                 </div>
+            </div>
+
+            <div class="course-inclusions fade-in delay-600">
+                <p><strong>Todos los cursos incluyen:</strong> Clases prácticas (con auto) y teóricas (virtuales),
+                    material didáctico en papel (distinto a clases virtuales), sticker de principiante + <span
+                        class="highlight">cupón de descuento en MAKEUP REGINA</span>.</p>
             </div>
         </div>
     </section>
 
-    <section id="contacto" class="local-info">
+    <section id="contacto" class="local-info section-animate">
         <div class="container">
-            <h2>Sucursal Pergamino</h2>
-            <p>Estamos cerca tuyo. Consultanos horarios y precios hoy mismo.</p>
-            
-            <div class="contact-box">
-                <h3>Contacto Directo</h3>
-                <p style="margin: 10px 0; font-size: 1.2rem;">📞 Cel / WhatsApp: <strong>02477 - 15 4 668 394</strong></p>
-                <a href="https://wa.me/5492477668394" style="color: white; text-decoration: underline;">Enviar mensaje ahora</a>
+            <h2 class="fade-in">Sucursal Pergamino</h2>
+            <p class="fade-in delay-200">Estamos cerca tuyo. Seguinos en nuestras redes o escribinos.</p>
+
+            <div class="contact-info-grid fade-in delay-400">
+                <div class="hours-box">
+                    <h3><i class="far fa-clock"></i> Horarios</h3>
+                    <div class="schedule-item">
+                        <h4>Administración</h4>
+                        <p>Lun a Vie: 9:00 a 13:00 y 16:00 a 19:30</p>
+                        <p>Sáb: 9:00 a 13:00</p>
+                    </div>
+                    <div class="schedule-item">
+                        <h4>Enseñanza</h4>
+                        <p>Lun a Vie: 07:40 a 19:00</p>
+                        <p>Sáb: 8:20 a 13:00</p>
+                    </div>
+                </div>
+
+                <div class="contact-box zoom-in delay-400">
+                    <h3>Contacto Directo</h3>
+
+                    <div class="contact-number">
+                        <i class="fab fa-whatsapp"></i>
+                        <span>02477 - 15 668394</span>
+                    </div>
+
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/luzverdepergamino/" class="social-btn instagram"><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/p/Luz-Verde-Pergamino-Productos-y-Servicios-100064190372231/?locale=es_LA"
+                            class="social-btn facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="mailto:info@luzverde.com" class="social-btn email"><i class="fas fa-envelope"></i></a>
+                    </div>
+
+                    <a href="https://wa.me/5492477668394" class="btn-outline">Enviar mensaje ahora</a>
+                </div>
             </div>
         </div>
     </section>
@@ -67,4 +176,5 @@
     <script src="app.js"></script>
 
 </body>
+
 </html>
