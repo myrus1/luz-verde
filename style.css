@@ -103,6 +103,30 @@ header {
     width: 100%;
 }
 
+/* Botón Ingreso en el nav */
+.btn-ingreso {
+    display: inline-block;
+    background: var(--primary-green);
+    color: var(--white) !important;
+    padding: 8px 22px;
+    border-radius: 50px;
+    font-weight: 600 !important;
+    font-size: 0.9rem;
+    text-decoration: none !important;
+    transition: background 0.3s ease, transform 0.2s ease;
+    margin-left: 20px;
+}
+
+.btn-ingreso::after {
+    display: none !important;
+}
+
+.btn-ingreso:hover {
+    background: var(--dark-green) !important;
+    color: var(--white) !important;
+    transform: translateY(-2px);
+}
+
 /* Hero Section */
 .hero {
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
@@ -377,6 +401,11 @@ footer {
 
     .nav-links a {
         margin: 0 10px;
+    }
+
+    .btn-ingreso {
+        margin-left: 0;
+        margin-top: 12px;
     }
 
     .contact-info-grid {
